@@ -1,0 +1,8 @@
+In Python you can make loops
+In Python you can make object
+In Python you can make if statment
+In Python you can make class
+In Python you can make list
+In Python you can make dictionaries
+In Python you can make everything
+In Python you can make programs
