@@ -18,7 +18,7 @@ def run_game():
 
     # Set the background color.
     bg_color = (230, 230, 230)
-
+    
     #Creating spaceship, group of bullets and group of aliens
     ship = Ship(ai_settings, screen)
     bullets = Group()

@@ -165,3 +165,8 @@ def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
 
     #Pause
     sleep(0.5)
+
+def check_aliens_bottom(ai_settings, stats, screen, ship, aliens, 
+    bullets):
+    """Checking does any alien arrived to the bottom edge"""
+    
