@@ -1,10 +1,12 @@
 import pygame
+from pygame.sprite import Sprite
 
-class Ship(object):
+class Ship(Sprite):
 	"""Spaceship that will be made for player usage"""
 	
 	def __init__(self, ai_settings, screen):
 		"""Spaceship initialization and his starting position"""
+		super(Ship, self).__init__()
 
 		self.screen = screen
 		self.ai_settings = ai_settings
